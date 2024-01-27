@@ -1,7 +1,7 @@
 use colorgrad::Color;
 use image::{RgbImage, ImageBuffer, Rgb, Rgb32FImage};
 use noise::{NoiseFn, Perlin, Seedable, RidgedMulti, Fbm, MultiFractal};
-use rocky::{equirectangular_to_xyz, spherical_mapping_to_xyz, convert_cube_uv_to_xyz, bilinear_sample2, normalized};
+use bevy_rocky::{equirectangular_to_xyz, spherical_mapping_to_xyz, convert_cube_uv_to_xyz, bilinear_sample2, normalized};
 
 fn main() {
 
